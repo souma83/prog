@@ -4,8 +4,11 @@ public class Date {
 	
 
 	int date=16,year=2019;
-	String day= "monday";
+	String day= "Monday";
 	String month= "december";
 		System.out.println(day + date +"-" + month + "-"+ year);
+		String formamrca="american format";
+		System.out.println(day +", " +month + date +", " + year);
+		System.out.println(day+ " "+date +" "+month +" "+ year);
 	}
 }
