@@ -3,8 +3,9 @@ public class Date {
 	public static void main(String[]args){
 	
 
-	int day=16,year=2019;
+	int date=16,year=2019;
+	String day= "monday";
 	String month= "december";
-		System.out.println(day +"-" + month + "-"+ year);
+		System.out.println(day + date +"-" + month + "-"+ year);
 	}
 }
