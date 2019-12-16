@@ -7,8 +7,7 @@ public class Date {
 	String day= "Monday";
 	String month= "december";
 		System.out.println(day + date +"-" + month + "-"+ year);
-		String formamrca="american format";
-		System.out.println(day +", " +month + date +", " + year);
-		System.out.println(day+ " "+date +" "+month +" "+ year);
+		System.out.println("American format" +day +", " +month + date +", " + year);
+		System.out.println("European format"+day+ " "+date +" "+month +" "+ year);
 	}
 }
