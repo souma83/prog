@@ -2,11 +2,11 @@
 
 public class Tempurature {
 	public static void main(String[]args){
-		Scanner in = new Scanner(System.In);
-		double c, f=c*9/5+32;
+		Scanner in = new Scanner(System.in);
+		double c, f;
 		System.out.println("enter the temprature in celsius ");
 		c=in.nextDouble();
-
+		f=c*9/5+32;
 			System.out.println("the temprature is fahrenheit " + f);
 
 	}
