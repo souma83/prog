@@ -7,7 +7,7 @@ public class Tempurature {
 		System.out.println("enter the temprature in celsius ");
 		c=in.nextDouble();
 		f=c*9/5+32;
-			System.out.println("the temprature is fahrenheit " + f);
+System.out.println("%fcelsius =%f fahrenheit", c,f);
 
 	}
 	}
